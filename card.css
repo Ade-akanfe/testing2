@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+
+.carddd {
+    width: 200px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pic {
+    width: 100px;
+    height: auto;
+}
+
+#icon {
+    width: 65px;
+    height: 65px;
+    color: white;
+}
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+@media screen and (max-width: 768px) {
+    .carddd {
+      width: 100%; 
+      max-width: 300px; 
+    }
+  }
+
+
